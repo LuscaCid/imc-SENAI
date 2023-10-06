@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua saúde</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="app">  
+        <img src="./images/exercise-gym-svgrepo-com.svg">
+        <div class="imc-calculating">
+            <form>
+                <legend>Calculadora IMC</legend>
+                <fieldset>
+                    
+                    <div class="input-wrapper">
+                        <label for="weight">Peso em kg</label>
+                        <input type="number" id="weight" placeholder="kg" required>
+
+                    </div>
+                    
+                    <div class="input-wrapper">
+                        <label for="height">Altura em metros</label>
+                        <input type="number" id="height" placeholder="m" required>
+                    </div>
+                    <button id="calculate">Calcular</button>
+
+                </fieldset>
+
+                <div class="results">
+                    <div class="imc">
+                        <h1 id="cod-imc">21</h1>
+                        <span>Seu IMC</span>
+                    </div>
+                    
+                    <p>calcule seu imc</p>
+                </div>
+                <div class="link">
+                    <a href="https://www.paho.org/pt/topicos/alimentacao-saudavel" target="_blank">mais informaçoes sobre o IMC <img src="./assets/link-svgrepo-com.svg" alt="link icone"></a>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
